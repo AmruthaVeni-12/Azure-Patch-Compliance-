@@ -1,10 +1,14 @@
 # Azure Patch Compliance
 
+## Azure Update Manager Portal
+
+[Open Azure Update Manager in the Azure Portal](https://portal.azure.com/#view/Microsoft_Azure_Automation/UpdateCenterMenuBlade/~/machines)
+
 ## Problem Statement
 
-Organizations often manage Windows and Linux virtual machines across Azure subscriptions without a consistent, auditable patching process. Manual patching can result in missed security updates, configuration drift, unexpected downtime, and limited visibility into the compliance status of each machine.
+Organizations often manage Windows and Linux virtual machines across Azure subscriptions without a consistent, auditable patching process. Manual patching can result in missed security updates, inconsistent maintenance windows, and limited visibility into compliance status.
 
-This project addresses that problem by designing an Azure-based patch compliance workflow that uses **Azure Update Manager**, **Maintenance Configurations**, and patch orchestration to assess and update virtual machines in a controlled manner. The solution provides administrators with a repeatable patching process, compliance visibility, and management reports for both Windows and Linux workloads.
+This project addresses that problem by designing an Azure-based patch compliance workflow that uses **Azure Update Manager**, **Maintenance Configurations**, and patch orchestration to assess and update virtual machines in a controlled and repeatable manner.
 
 ## Solution Overview
 
@@ -123,4 +127,4 @@ This repository currently contains the project reference material:
 
 ## Conclusion
 
-The Azure Patch Compliance solution provides a structured and repeatable approach to assessing, installing, and reporting patches across Windows and Linux virtual machines. By combining Azure Update Manager with maintenance configurations, patch orchestration, dashboards, and management reports, administrators can improve security posture while maintaining operational control.
+The Azure Patch Compliance solution provides a structured and repeatable approach to assessing, installing, and reporting patches across Windows and Linux virtual machines. By combining Azure Update Manager, maintenance configurations, patch orchestration, and compliance reporting, organizations can improve security, operational visibility, and audit readiness.
